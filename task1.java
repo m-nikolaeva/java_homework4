@@ -14,7 +14,6 @@ public class task1 {
         System.out.println(taskList.toString());
         System.out.println("Перевернутый список:");
         System.out.println(reverseLst(taskList).toString());
-
     }
 
     public static LinkedList<String> reverseLst(LinkedList<String> lst) {
@@ -24,5 +23,4 @@ public class task1 {
         }
         return resultLst;
     }
-
 }
