@@ -1,6 +1,6 @@
-import java.util.LinkedList;
-
 /* Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список. */
+
+import java.util.LinkedList;
 
 public class task1 {
     public static void main(String[] args) {
