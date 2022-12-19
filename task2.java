@@ -24,7 +24,7 @@ public class task2 {
         myLine2.dequeue(line);
         System.out.printf("Очередь после удаления первого элемента: %s \n", line);
         myLine2.first(line);
-        System.out.printf("Очередь после возвращения 1 элеменита без его удаления: %s \n", line);
+        System.out.printf("Очередь после возвращения 1 элемента(без его удаления): %s \n", line);
     }
     public void first(Deque<Object> object){
         System.out.println("Первый элемент очереди: " + object.getFirst());
